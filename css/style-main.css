@@ -1,0 +1,152 @@
+body
+{background-color:white;
+font-family:Helvetica;
+font-size:12pt;
+margin:0%;
+padding-top:20px;
+padding-bottom:20px;
+overflow-y:scroll;}
+
+div.border
+{background-color:white;
+width:800px;
+padding:10px 10px;
+margin-left:auto;
+margin-right:auto;}
+
+div.head
+{background-color:white;
+word-spacing:18px;
+width:720px;
+padding:10px 40px 10px 40px;
+margin:0px 0px;
+text-align:center;
+border-bottom:1px solid #AB0520/*rgb(178,178,178)*/;
+border-top:1px solid #AB0520/*rgb(178,178,178)*/;
+line-height:200%;}
+
+div.nav
+{background-color:white;}
+
+div.footer
+{clear:both;
+margin-top:100px;
+width:100%;
+font-size:10pt;
+font-style:italic;
+font-family:Times;
+}
+
+
+div.main
+{background-color:white;
+width:800px;
+padding:0px;
+margin:0px;
+text-align:justify;}
+
+
+
+
+h1
+{text-align:center;
+color:white;/*#B92819,#AB0520,rgb(0,95,140);*/
+font-size:48pt;
+font-style:normal;
+font-family:"Trebuchet MS";
+padding:0px 0px 0px 0px;}
+
+
+h2
+{font-size:11pt;
+margin-top:10px;}
+
+h3
+{padding:0px 0px 0px;}
+
+div.image
+{text-align:center;
+vertical-align: middle;
+width:800px;
+padding:0px 0px 10px;}
+
+ul
+{list-style-type:square;}
+li
+{margin-top: 3px;
+ margin-bottom: 3px;}
+
+table.parts
+{border-collapse:collapse;
+border: 1px solid black;
+margin-top:30px;
+margin-bottom:30px;
+table-layout:fixed;}
+
+td.parts
+{border: 1px solid black;
+border-top-style:solid;
+border-right-style:none;
+border-bottom-style:solid;
+border-left-style:none;
+height:20px;
+padding:5px;}
+
+table.prog
+{border-collapse:collapse;
+margin-top:30px;
+margin-bottom:30px;
+table-layout:fixed;}
+
+td.prog, td.progc
+{text-align:center;
+border: 1px solid black;
+height:30px;}
+
+td.progc
+{background-color:#E0E0E0;}
+
+hr.speaker
+{background-color: black;
+border:0px;
+height:1px;
+margin-top:25px;
+margin-bottom:25px;
+width:100%;}
+
+a:link {text-decoration:none;color:#B92819;}
+a:visited {text-decoration:none;color:#B92819;}
+a:hover {text-decoration:underline;color:rgb(0,95,140));}
+a:active {text-decoration:none;color:#B92819;}
+
+a.head:link {text-decoration:none;color:rgb(0,95,140);}
+a.head:visited {text-decoration:none;color:rgb(0,95,140)}
+a.head:hover {text-decoration:underline;color:#B92819;}
+a.head:active {text-decoration:underline;color:#B92819;}
+
+a.head-active:link {text-decoration:none;font-weight:bold;color:#B92819;}
+a.head-active:visited {text-decoration:none;font-weight:bold;color:#B92819;)}
+a.head-active:hover {text-decoration:underline;font-weight:bold;color:#B92819;}
+a.head-active:active {text-decoration:none;font-weight:bold;color:#B92819;}
+
+
+
+
+/*------------------
+BOOTSTRAP
+------------------*/
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+/* Custom style to prevent carousel from being distorted 
+   if for some reason image doesn't load */
+.carousel-item{
+    min-height: 280px;
+}
+
+
+
+
