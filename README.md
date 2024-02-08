@@ -1,1 +1,1 @@
-tsgkllaufabteilung.github.io
+7meilentrail.github.io
