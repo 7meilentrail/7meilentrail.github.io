@@ -129,19 +129,17 @@ a.head-active:visited {text-decoration:none;font-weight:bold;color:#B92819;)}
 a.head-active:hover {text-decoration:underline;font-weight:bold;color:#B92819;}
 a.head-active:active {text-decoration:none;font-weight:bold;color:#B92819;}
 
+a.schwarz:link {text-decoration:none;color:black;}
+a.schwarz:visited {text-decoration:none;color:black;}
+a.schwarz:hover {text-decoration:underline;color:rgb(245,211,0);}
+a.schwarz:active {text-decoration:none;}
 
-/*------------------
-white links
-------------------*/
+a.white:link {text-decoration:none;color:white;}
+a.white:visited {text-decoration:none;color:white;}
+a.white:hover {text-decoration:underline;color:white;}
+a.white:active {text-decoration:none;}
 
-.white-link {
-    color: white;
-    text-decoration: none;
-}
 
-.white-link:hover {
-    color: #eeeeee;
-}
 
 
 /*------------------
