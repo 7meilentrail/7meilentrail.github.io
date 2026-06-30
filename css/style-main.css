@@ -130,6 +130,18 @@ a.head-active:hover {text-decoration:underline;font-weight:bold;color:#B92819;}
 a.head-active:active {text-decoration:none;font-weight:bold;color:#B92819;}
 
 
+/*------------------
+white links
+------------------*/
+
+.white-link {
+    color: white;
+    text-decoration: none;
+}
+
+.white-link:hover {
+    color: #eeeeee;
+}
 
 
 /*------------------
