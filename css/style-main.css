@@ -161,13 +161,23 @@ BOOTSTRAP
 FOOTER
 ------------------*/
 
-footer a {
+.footer-text {
+    color: #d6d6d6;
+}
+
+.footer-text a {
+    color: #d6d6d6;
+    text-decoration: none;
     transition: color 0.2s ease;
 }
 
-footer a:hover {
+.footer-text a:hover {
     color: #28a745 !important;
     text-decoration: none;
+}
+
+.footer-title {
+    color: #28a745;
 }
 
 
