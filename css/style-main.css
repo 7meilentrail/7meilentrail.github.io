@@ -157,6 +157,20 @@ BOOTSTRAP
     min-height: 280px;
 }
 
+/*------------------
+FOOTER
+------------------*/
+
+footer a {
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #28a745 !important;
+    text-decoration: none;
+}
+
+
 
 
 
