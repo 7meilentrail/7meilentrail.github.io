@@ -119,15 +119,15 @@ a:visited {text-decoration:none;color:#B92819;font-weight: bold;}
 a:hover {text-decoration:underline;color:rgb(0,95,140));font-weight: bold;}
 a:active {text-decoration:none;color:#B92819;font-weight: bold;}
 
-a.head:link {text-decoration:none;color:rgb(0,95,140);font-weight: bold;}
-a.head:visited {text-decoration:none;color:rgb(0,95,140);font-weight: bold;}
-a.head:hover {text-decoration:underline;color:#B92819;font-weight: bold;}
-a.head:active {text-decoration:underline;color:#B92819;font-weight: bold;}
+a.head:link {text-decoration:none;color:rgb(0,95,140);}
+a.head:visited {text-decoration:none;color:rgb(0,95,140);}
+a.head:hover {text-decoration:underline;color:#B92819;}
+a.head:active {text-decoration:underline;color:#B92819;}
 
-a.head-active:link {text-decoration:none;font-weight:bold;color:#B92819;font-weight: bold;}
-a.head-active:visited {text-decoration:none;font-weight:bold;color:#B92819;font-weight: bold;}
-a.head-active:hover {text-decoration:underline;font-weight:bold;color:#B92819;font-weight: bold;}
-a.head-active:active {text-decoration:none;font-weight:bold;color:#B92819;font-weight: bold;}
+a.head-active:link {text-decoration:none;font-weight:bold;color:#B92819;}
+a.head-active:visited {text-decoration:none;font-weight:bold;color:#B92819;}
+a.head-active:hover {text-decoration:underline;font-weight:bold;color:#B92819;}
+a.head-active:active {text-decoration:none;font-weight:bold;color:#B92819;}
 
 a.schwarz:link {text-decoration:none;color:black;font-weight: bold;}
 a.schwarz:visited {text-decoration:none;color:black;font-weight: bold;}
