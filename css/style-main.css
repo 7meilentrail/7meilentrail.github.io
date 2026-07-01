@@ -114,30 +114,30 @@ margin-top:25px;
 margin-bottom:25px;
 width:100%;}
 
-a:link {text-decoration:none;color:#B92819;}
-a:visited {text-decoration:none;color:#B92819;}
-a:hover {text-decoration:underline;color:rgb(0,95,140));}
-a:active {text-decoration:none;color:#B92819;}
+a:link {text-decoration:none;color:#B92819;font-weight: bold;}
+a:visited {text-decoration:none;color:#B92819;font-weight: bold;}
+a:hover {text-decoration:underline;color:rgb(0,95,140));font-weight: bold;}
+a:active {text-decoration:none;color:#B92819;font-weight: bold;}
 
-a.head:link {text-decoration:none;color:rgb(0,95,140);}
-a.head:visited {text-decoration:none;color:rgb(0,95,140)}
-a.head:hover {text-decoration:underline;color:#B92819;}
-a.head:active {text-decoration:underline;color:#B92819;}
+a.head:link {text-decoration:none;color:rgb(0,95,140);font-weight: bold;}
+a.head:visited {text-decoration:none;color:rgb(0,95,140);font-weight: bold;}
+a.head:hover {text-decoration:underline;color:#B92819;font-weight: bold;}
+a.head:active {text-decoration:underline;color:#B92819;font-weight: bold;}
 
-a.head-active:link {text-decoration:none;font-weight:bold;color:#B92819;}
-a.head-active:visited {text-decoration:none;font-weight:bold;color:#B92819;)}
-a.head-active:hover {text-decoration:underline;font-weight:bold;color:#B92819;}
-a.head-active:active {text-decoration:none;font-weight:bold;color:#B92819;}
+a.head-active:link {text-decoration:none;font-weight:bold;color:#B92819;font-weight: bold;}
+a.head-active:visited {text-decoration:none;font-weight:bold;color:#B92819;font-weight: bold;}
+a.head-active:hover {text-decoration:underline;font-weight:bold;color:#B92819;font-weight: bold;}
+a.head-active:active {text-decoration:none;font-weight:bold;color:#B92819;font-weight: bold;}
 
-a.schwarz:link {text-decoration:none;color:black;}
-a.schwarz:visited {text-decoration:none;color:black;}
-a.schwarz:hover {text-decoration:underline;color:rgb(245,211,0);}
-a.schwarz:active {text-decoration:none;}
+a.schwarz:link {text-decoration:none;color:black;font-weight: bold;}
+a.schwarz:visited {text-decoration:none;color:black;font-weight: bold;}
+a.schwarz:hover {text-decoration:underline;color:rgb(245,211,0);font-weight: bold;}
+a.schwarz:active {text-decoration:none;font-weight: bold;}
 
-a.white:link {text-decoration:none;color:white;}
-a.white:visited {text-decoration:none;color:white;}
-a.white:hover {text-decoration:underline;color:white;}
-a.white:active {text-decoration:none;}
+a.white:link {text-decoration:none;color:white;font-weight: bold;}
+a.white:visited {text-decoration:none;color:white;font-weight: bold;}
+a.white:hover {text-decoration:underline;color:white;font-weight: bold;}
+a.white:active {text-decoration:none;font-weight: bold;}
 
 
 
