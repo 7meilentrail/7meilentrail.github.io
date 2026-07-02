@@ -186,12 +186,13 @@ AUSCHREIBUNG
 ------------------*/
 
 
+
+
 .info-table th {
     width: 26%;
     color: #B92819;
     vertical-align: top;
-    padding: 12px 16px;
-    background: #f8f9fa;
+    padding: 10px 16px;
     border-right: 2px solid #dee2e6;
 }
 
@@ -200,12 +201,12 @@ AUSCHREIBUNG
     padding: 12px 18px;
 }
 
-.info-table tr {
-    border-bottom: 1px solid #ececec;
+.info-table tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
 }
 
-.info-table tr:last-child {
-    border-bottom: none;
+.info-table tr {
+    border-bottom: 1px solid #e9ecef;
 }
 
 
