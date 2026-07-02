@@ -185,14 +185,16 @@ FOOTER
 AUSCHREIBUNG
 ------------------*/
 
+
 .info-table th {
-    width: 28%;
+    width: 24%;
     color: #B92819;
     white-space: nowrap;
+    vertical-align: top;
 }
 
 .info-table td {
-    color: #333;
+    vertical-align: top;
 }
 
 .info-table tr {
@@ -202,6 +204,8 @@ AUSCHREIBUNG
 .info-table tr:last-child {
     border-bottom: none;
 }
+
+
 
 
 /*------------------
