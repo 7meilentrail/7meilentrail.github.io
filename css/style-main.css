@@ -185,12 +185,20 @@ FOOTER
 AUSCHREIBUNG
 ------------------*/
 
+.info-table {
+    border: 2px solid #f2f2f2;
+    border-radius: 6px;
+    overflow: hidden;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
 .info-table th {
     width: 26%;
     color: #B92819;
     vertical-align: top;
     padding: 10px 16px;
-    border-right: 2px solid #f2f2f2;
+    border-right: 3px solid #f2f2f2;
 }
 
 .info-table td {
@@ -199,7 +207,7 @@ AUSCHREIBUNG
 }
 
 .info-table tr {
-    border-bottom: 1px solid #e9ecef;
+    border-bottom: 1px solid #f2f2f2;
 }
 
 .info-table tbody tr:nth-child(odd) {
