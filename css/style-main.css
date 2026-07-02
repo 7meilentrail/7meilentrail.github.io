@@ -182,6 +182,29 @@ FOOTER
 
 
 /*------------------
+AUSCHREIBUNG
+------------------*/
+
+.info-table th {
+    width: 28%;
+    color: #B92819;
+    white-space: nowrap;
+}
+
+.info-table td {
+    color: #333;
+}
+
+.info-table tr {
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.info-table tr:last-child {
+    border-bottom: none;
+}
+
+
+/*------------------
 ERGBENISSE
 ------------------*/
 
