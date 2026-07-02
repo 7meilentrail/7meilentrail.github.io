@@ -202,6 +202,9 @@ ERGBENISSE
     vertical-align: middle;
 }
 
+.record-table {
+    border-top: 3px solid #28a745;
+}
 
 
 .record-tabs .nav-link {
