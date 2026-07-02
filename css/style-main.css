@@ -237,12 +237,12 @@ ERGBENISSE
 }
 
 .record-table {
-    border-top: 4px solid #28a745;
+    border-top: 5px solid #28a745;
 }
 
 
 .record-tabs {
-    border-bottom: 4px solid #28a745;
+    border-bottom: 5px solid #28a745;
 }
 
 
@@ -267,8 +267,6 @@ ERGBENISSE
     color: white !important;
     border-color: #28a745;
     margin-bottom: -4px;
-    position: relative;
-    z-index: 2;
 }
 
 
