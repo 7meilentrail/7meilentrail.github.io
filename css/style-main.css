@@ -185,9 +185,6 @@ FOOTER
 AUSCHREIBUNG
 ------------------*/
 
-
-
-
 .info-table th {
     width: 26%;
     color: #B92819;
@@ -201,12 +198,12 @@ AUSCHREIBUNG
     padding: 12px 18px;
 }
 
-.info-table tbody tr:nth-child(odd) {
-    background-color: #f8f9fa;
-}
-
 .info-table tr {
     border-bottom: 1px solid #e9ecef;
+}
+
+.info-table tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
 }
 
 
