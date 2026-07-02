@@ -276,10 +276,7 @@ INDEX
 ------------------*/
  
 .summary-table td:first-child {
-    width: 22%;
-    white-space: nowrap;
     padding-left: 0;
-    padding-right: 18px;
 }
 
 
