@@ -190,7 +190,7 @@ AUSCHREIBUNG
     color: #B92819;
     vertical-align: top;
     padding: 10px 16px;
-    border-right: 2px solid #dee2e6;
+    border-right: 2px solid #f2f2f2;
 }
 
 .info-table td {
@@ -203,7 +203,7 @@ AUSCHREIBUNG
 }
 
 .info-table tbody tr:nth-child(odd) {
-    background-color: #f8f9fa;
+    background-color: #f2f2f2;
 }
 
 
