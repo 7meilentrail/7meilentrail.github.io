@@ -187,15 +187,19 @@ AUSCHREIBUNG
 
 
 .info-table th {
-    width: 24%;
+    width: 26%;
     color: #B92819;
-    white-space: nowrap;
     vertical-align: top;
+    padding-right:20px;
+
+    border-right:2px solid #e9ecef;
 }
 
-.info-table td {
-    vertical-align: top;
+.info-table td{
+    vertical-align:top;
+    padding-left:20px;
 }
+
 
 .info-table tr {
     border-bottom: 1px solid rgba(0,0,0,0.08);
