@@ -276,9 +276,12 @@ ERGBENISSE
 /*------------------
 INDEX
 ------------------*/
- 
-.summary-table td:first-child {
+
+.summary-table td {
     padding-left: 0;
+    padding-right: 4;
+    padding-top: 4;
+    padding-bottom: 4;
 }
 
 
