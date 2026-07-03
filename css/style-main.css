@@ -185,6 +185,7 @@ FOOTER
 AUSCHREIBUNG
 ------------------*/
 
+
 .info-table {
     border: 2px solid #f2f2f2;
     border-radius: 6px;
@@ -199,6 +200,8 @@ AUSCHREIBUNG
     vertical-align: top;
     padding: 10px 16px;
     border-right: 3px solid #f2f2f2;
+    font-variant: small-caps;
+    letter-spacing: 0.05em;
 }
 
 .info-table td {
