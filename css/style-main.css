@@ -284,6 +284,10 @@ INDEX
     padding-bottom: 4;
 }
 
+.summary-table tr {
+     valign: top;
+}
+
 
 
 
