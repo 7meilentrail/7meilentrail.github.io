@@ -285,6 +285,7 @@ INDEX
 
 .summary-table td:first-child {
     padding-right: 8px;
+    white-space: nowrap;
 }
 
 .summary-table td:last-child {
