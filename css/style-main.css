@@ -287,6 +287,9 @@ INDEX
     padding-right: 8px;
     white-space: nowrap;
 }
+.summary-table td:first-child strong {
+    font-size: 95%;
+}
 
 .summary-table td:last-child {
     padding-right: 0;
@@ -295,8 +298,6 @@ INDEX
 .summary-table tr {
      valign: top;
 }
-
-
 
 
 
