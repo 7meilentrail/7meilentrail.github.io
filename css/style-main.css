@@ -345,8 +345,10 @@ JUMBOTRON
     background-repeat: no-repeat;
 
     filter:
-        saturate(1.35)
-        contrast(1.08);
+        saturate(1.80)
+        contrast(1.12)
+        brightness(1.03)
+        hue-rotate(-4deg);
 
     z-index: -1;
 }
