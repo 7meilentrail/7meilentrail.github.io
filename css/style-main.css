@@ -354,13 +354,16 @@ JUMBOTRON
 
 
 .date-jumbo {
-    font-weight: 700;
+    font-weight: 950;
     letter-spacing: 1px;
+    font-size: 3.2rem;
 
-    color: #A8D65A;
+    color: #B8E86A;
+
+    -webkit-text-stroke: 1px rgba(0,0,0,.35);
 
     text-shadow:
-        0 2px 6px rgba(0,0,0,.45);
+        0 2px 6px rgba(0,0,0,.5);
 }
 
 
