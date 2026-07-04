@@ -359,13 +359,13 @@ JUMBOTRON
     letter-spacing: 1px;
     font-size: 2.5rem;
 
-    color: #DFF5C2!important;
+    color: #E8FBCB !important;
  /*------------------
  color: #D5F2A0!important;#DFF5C2#F2FAEA
 ------------------*/
 
 
-    -webkit-text-stroke: 1px rgba(0,0,0,.3);
+    -webkit-text-stroke: 1px rgba(0,0,0,.4);
 
     text-shadow:
         0 3px 8px rgba(0,0,0,.6);
