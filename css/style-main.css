@@ -354,6 +354,17 @@ JUMBOTRON
 }
 
 
+.date-jumbo {
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    color: #A8D65A;
+
+    text-shadow:
+        0 2px 6px rgba(0,0,0,.45);
+}
+
+
 
 
 
