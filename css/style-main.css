@@ -361,14 +361,14 @@ JUMBOTRON
 
     color: #DFF5C2!important;
  /*------------------
- color: #D5F2A0!important;#DFF5C2
+ color: #D5F2A0!important;#DFF5C2#F2FAEA
 ------------------*/
 
 
     -webkit-text-stroke: 1px rgba(0,0,0,.3);
 
     text-shadow:
-        0 2px 6px rgba(0,0,0,.4);
+        0 2px 6px rgba(0,0,0,.5);
 }
 
 
