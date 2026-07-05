@@ -144,13 +144,7 @@ a.white:active {text-decoration:none;font-weight: bold;}
 /*------------------
 BODY BACKGROUND
 ------------------*/
-body {
-    background:
-        radial-gradient(circle at top,
-            #303030 0%,
-            #242424 35%,
-            #181818 100%);
-}
+
 
 /*------------------
 BOOTSTRAP
