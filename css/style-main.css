@@ -285,6 +285,130 @@ INDEX
     padding-bottom: 6;
 }
 
+
+
+
+
+/* Partner grid
+-------------------------------------------------- */
+
+.partner-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.6rem;
+    margin-top: 1.5rem;
+}
+
+.partner-item {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 10px;
+
+    box-shadow:
+        0 3px 10px rgba(0, 0, 0, 0.08),
+        0 10px 24px rgba(0, 0, 0, 0.04);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.partner-item:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 6px 16px rgba(0, 0, 0, 0.11),
+        0 14px 30px rgba(0, 0, 0, 0.06);
+}
+
+
+/* Uniform image/ad area */
+
+.partner-image-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    aspect-ratio: 4 / 3;
+
+    padding: 1rem;
+    background: #f7f7f5;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.partner-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+
+/* Caption and button */
+
+.partner-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    padding: 1rem 1.1rem 1.15rem;
+    text-align: center;
+}
+
+.partner-name {
+    margin: 0 0 1rem;
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.partner-button {
+    align-self: center;
+    margin-top: auto;
+
+    padding: 0.45rem 1.15rem;
+    border-radius: 50px;
+
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+/* Tablet */
+
+@media (max-width: 991.98px) {
+    .partner-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+
+/* Mobile */
+
+@media (max-width: 575.98px) {
+    .partner-grid {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+
+    .partner-image-wrap {
+        aspect-ratio: 16 / 10;
+    }
+}
+
+
+
+
+
+
+
+
 .summary-table td:first-child {
     padding-right: 8px;
     white-space: nowrap;
