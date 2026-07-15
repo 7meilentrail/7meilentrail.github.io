@@ -287,6 +287,24 @@ INDEX
 
 
 
+.summary-table td:first-child {
+    padding-right: 8px;
+    white-space: nowrap;
+}
+.summary-table td:first-child strong {
+    font-size: 95%;
+}
+
+.summary-table td:last-child {
+    padding-right: 0;
+}
+
+.summary-table tr {
+     valign: top;
+}
+
+
+
 
 
 /* Partner grid
@@ -368,17 +386,6 @@ INDEX
     line-height: 1.3;
 }
 
-.partner-button {
-    align-self: center;
-    margin-top: auto;
-
-    padding: 0.45rem 1.15rem;
-    border-radius: 50px;
-
-    font-size: 0.9rem;
-    font-weight: 600;
-}
-
 
 /* Tablet */
 
@@ -406,24 +413,6 @@ INDEX
 
 
 
-
-
-
-.summary-table td:first-child {
-    padding-right: 8px;
-    white-space: nowrap;
-}
-.summary-table td:first-child strong {
-    font-size: 95%;
-}
-
-.summary-table td:last-child {
-    padding-right: 0;
-}
-
-.summary-table tr {
-     valign: top;
-}
 
 
 
